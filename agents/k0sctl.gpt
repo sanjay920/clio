@@ -1,7 +1,7 @@
 Name: k0sctl
 Description: An agent to create k0s clusters quickly using the k0sctl CLI
 Chat: true
-Context: github.com/gptscript-ai/clio/context
+Context: github.com/sanjay920/clio/context
 Context: additional-environment
 Tools: sys.http.html2text as http
 

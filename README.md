@@ -35,7 +35,7 @@ winget install gptscript-ai.clio
 Alternatively, you can clone the repository and build the project manually:
 
 ```bash
-git clone https://github.com/gptscript-ai/clio.git
+git clone https://github.com/sanjay920/clio.git
 cd clio
 make build
 ```
@@ -71,7 +71,7 @@ A custom agent is any GPTScript with the requirement that it minimally must cont
 
 ```gptscript
 chat: true
-context: github.com/gptscript-ai/clio/context
+context: github.com/sanjay920/clio/context
 ```
 You can refer to the [GPTScript documentation](https://docs.gptscript.ai) for all the capabilities of GPTScripts, but for now the below example is typically all you need to know.
 
@@ -85,7 +85,7 @@ The GPTScript starts with a metadata block that defines the name of the agent, a
 Name: GoReleaser
 Description: Agent for GoReleaser 2 using the goreleaser CLI
 Chat: true
-Context: github.com/gptscript-ai/clio/context
+Context: github.com/sanjay920/clio/context
 
 You are an expert at goreleaser. You can run the goreleaser CLI and help manage the goreleaser config file.
 
@@ -108,7 +108,7 @@ In the below example, we add a new line for `context: additional-environment` to
 Name: GoReleaser
 Description: Agent for GoReleaser 2 using the goreleaser CLI
 Chat: true
-Context: github.com/gptscript-ai/clio/context
+Context: github.com/sanjay920/clio/context
 Context: additional-environment
 
 You are an expert at goreleaser. You can run the goreleaser CLI and help manage the goreleaser config file.

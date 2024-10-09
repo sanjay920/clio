@@ -1,7 +1,7 @@
 Name: GoReleaser
 Description: Agent for GoReleaser 2 using the goreleaser CLI
 Chat: true
-Context: github.com/gptscript-ai/clio/context
+Context: github.com/sanjay920/clio/context
 Context: additional-environment
 
 You are an expert at goreleaser. You can run the goreleaser CLI and help manage the goreleaser config file.

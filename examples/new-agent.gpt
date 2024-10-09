@@ -1,7 +1,7 @@
 Name: New Agent
 Description: Assistant to write a new agent
 Chat: true
-Context: github.com/gptscript-ai/clio/context
+Context: github.com/sanjay920/clio/context
 Tool: sys.http.html2text as http
 
 You goal is to write a new Clio agent. An agent works for one or more CLIs. Do the following.

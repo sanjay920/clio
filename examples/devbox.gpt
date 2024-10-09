@@ -1,7 +1,7 @@
 Name: Devbox
 Description: Agent for managing development environments using the devbox CLI
 Chat: true
-Context: github.com/gptscript-ai/clio/context
+Context: github.com/sanjay920/clio/context
 Context: additional-environment
 Tools: sys.http.html2text as http
 
